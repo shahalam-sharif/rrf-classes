@@ -1,0 +1,125 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #222222;
+}
+html,
+body { height: 100% }
+body {
+    color: #AAAAAA;
+}
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+section.section-padding {
+    padding: 80px 0;
+}
+.section-titie {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.section-titie h2 {
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+.section-titie h2::before {
+    background: #36a9e1 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-left: -30px;
+    position: absolute;
+    bottom: 0;
+    width: 60px;
+}
+.section-titie h2::after {
+    content: "";
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    bottom: 0;
+    width: 20px;
+    margin-left: -10px;
+    background: #BE1622;
+}
+.single-service-icon {
+  text-align: center;
+  min-height: 200px;
+  margin-bottom: 40px;
+  display: block;
+  color: #AAAAAA;
+    transition: .4s;
+}
+.single-service-icon:hover {
+    color: #222;
+}
+.service-container img {
+    height: 80px;
+    width: 80px;
+}
+
+.service-container {
+    text-align: center;
+}
+.single-service-icon h3 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+.single-service-icon i.fa {
+    color: #80c8ff;
+    font-size: 70px;
+}
+.service-container {
+    display: table;
+    width: 100%;
+    height: 90px;
+}
+
+
+.service-icon-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
