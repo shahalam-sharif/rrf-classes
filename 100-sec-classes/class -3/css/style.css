@@ -1,0 +1,110 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #000;
+}
+html,
+body { height: 100% }
+body {
+    color: #444749;
+}
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.video-area {
+    position: relative;
+    margin: 80px 0;
+}
+.video-area-bg {
+    background-image: url(../images/video-bg.jpg);
+    background-color: #ddd;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 42%;
+}
+.video-play-btn {
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 80px;
+    height: 80px;
+    background-color: #87C540;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 50%;
+    padding-left: 5px;
+    padding-top: 2px;
+    margin-top: -40px;
+    margin-right: -40px;
+}
+.video-play-btn:hover {
+    color: #fff;
+}
+.video-area-text {
+    padding: 100px 0;
+}
+.video-area-text h3 {
+	color: #373737;
+	padding-bottom: 10px;
+}
+.video-area-text p {
+	color: #979797;
+	padding-bottom: 30px;
+}
+ul.check-icon {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.check-icon li {
+    position: relative;
+    padding-left: 30px;
+    padding-bottom: 10px;
+	color: #595959;
+}
+.check-icon li::before {
+    font-family: fontAwesome;
+    content: "\f00c";
+    position: absolute;
+    left: 0;
+    top: 2px;
+    color: #87C540;
+    font-size: 14px;
+}
+
