@@ -1,0 +1,152 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #242524;
+}
+html,
+body { height: 100% }
+body {
+    color: #6f706f;
+}
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+section.section-padding {
+    padding: 80px 0;
+}
+.section-title {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.section-title span {
+    color: #26a65b;
+}
+.single-pricing-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.single-pricing-box:hover {
+    border: 1px solid #26a65b;
+}
+.single-pricing-box:hover .pricing-icon img, .single-pricing-box:hover .pricing-icon i {
+    opacity: 0.7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+.single-pricing-box h3 {
+    text-transform: uppercase;
+    color: #494A49;
+}
+.pricing-icon {
+    margin-bottom: 20px;
+}
+.pricing-icon img {
+    max-width: 60px;
+}
+.single-pricing-box i {
+    color: #26a65b;
+    font-size: 60px;
+}
+.pricing-icon img, .pricing-icon i {
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.pricing-list {
+    text-align: left;
+}
+.pricing-list ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+    line-height: 25px;
+}
+.pricing-list ul li {
+    -webkit-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+}
+.pricing-list ul li:hover {
+    padding-left: 5px;
+}
+.pricing-list ul li:before {
+    font-family: fontAwesome;
+    content: "\f00c";
+    color: #26A65B;
+    padding-right: 10px;
+}
+.pricing-list ul li.off:before {
+    font-family: fontAwesome;
+    content: "\f00d";
+    color: #EF2727;
+    padding-right: 10px;
+}
+.single-pricing-box h3.pricing-count {
+    margin: 20px;
+    text-transform: none;
+}
+a.borderdd-btn:hover {
+    background: #26A65B;
+    color: #fff;
+}
+a.borderdd-btn {
+    display: inline-block;
+    padding: 10px 30px;
+    border: 1px solid #26A65B;
+    border-radius: 50px;
+    color: #4D4E4D;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
