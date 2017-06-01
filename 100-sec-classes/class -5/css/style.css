@@ -1,0 +1,129 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #272727;
+}
+html,
+body { height: 100% }
+body {
+    color: #8E8E8E;
+    font-size: 15px;
+    line-height: 1.5;
+}
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.section-padding {
+    margin: 80px 0;
+}
+.section-bg-1 {
+    position: relative;
+    
+}
+.section-bg-1::after {
+    position: absolute;
+    background-image: url(../images/bg-1.jpeg);
+    left: 0;
+    top: 0;
+    width: 47%;
+    height: 100%;
+    content: "";
+    background-size: cover;
+    background-color: #ddd;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h2.section-title {
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 32px;
+}
+h2.section-title span {
+    color: #19B6FD;
+}
+.styled-faq {
+    text-decoration: none;
+}
+.styled-faq .panel-default > .panel-heading {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 0;
+    padding: 0;
+}
+.styled-faq .panel .panel-collapse .panel-body {
+    border: medium none;
+}
+.styled-faq .panel-group .panel {
+    border-radius: 0;
+    box-shadow: 0 0 0;
+    margin-bottom: 15px;
+}
+.styled-faq .panel .panel-heading h4 a {
+    display: block;
+    padding: 15px;
+    position: relative;
+}
+
+.styled-faq .panel .panel-heading h4 a:focus {
+    text-decoration: none;
+}
+.styled-faq .panel .panel-heading h4 a i.fa {
+    display: none;
+    float: right;
+    font-size: 150%;
+    line-height: 15px;
+}
+.styled-faq .panel .panel-heading h4 a[aria-expanded="true"] i.fa.fa-angle-down {
+    display: block;
+}
+.styled-faq .panel .panel-heading h4 a[aria-expanded="false"] i.fa.fa-angle-up {
+    display: block;
+}
+.styled-faq {
+    margin-top: 30px;
+    min-height: 330px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
