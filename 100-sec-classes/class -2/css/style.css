@@ -1,0 +1,131 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,
+body { height: 100% }
+body {
+
+}
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i');
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+}
+/*all browser support code*/
+body {
+    font-family: 'Asar', serif;
+}
+section.section-padding {
+    padding: 80px 0;
+}
+.quote-form-wrap img {
+    display: block;
+    margin: 0 auto;
+}
+.blue-quote-form {
+    background: #19B5FE none repeat scroll 0 0;
+    margin-top: -65px;
+}
+.blue-quote-form h3 {
+    position: relative;
+}
+.blue-quote-form h3::before {
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background: #fff;
+    top: 40px;
+    content: "";
+    margin-left: -50px;
+}
+.blue-quote-form h3::after {
+    content: "";
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    left: 50%;
+    top: 33px;
+    background: #19B5FE;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-left: -7.5px;
+}
+
+.blue-quote-form textarea {
+    width: 100%;
+    margin: 20px 0;
+}
+.blue-quote-form input , .blue-quote-form textarea {
+  border: none;
+  background: none;
+  color: #fff;
+  padding: 10px 5px;
+  border-bottom: 1px solid #fff;
+  width: 100%;
+}
+.blue-quote-form {
+    padding: 30px 50px;
+    max-width: 750px;
+}
+.form-submit-btn {
+    text-align: center;
+    margin-top: 20px;
+}
+.blue-quote-form h3 {
+    color: #fff;
+    margin: 40px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+.form-submit-btn button[type=submit] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #19B5FE;
+    text-transform: uppercase;
+}
+
