@@ -1,0 +1,131 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}
+html,
+body { height: 100% }
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #b0b0b0;
+}
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+section.section-padding {
+    padding: 80px 0;
+}
+.gray-bg {
+    background: #FAFAFA;
+}
+.section-title {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.section-title h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+.single-service-item {
+    -webkit-transition: .3s;
+    transition: .3s;
+	margin-bottom: 20px;
+}
+.single-service-item:hover {
+    box-shadow: 0 0 20px #AAECC6;
+}
+.single-service-bg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 225px;
+    background-color: #fff;
+}
+.single-service-1 {
+    background-image: url(../images/bg-1.jpg);
+}
+.single-service-2 {
+    background-image: url(../images/bg-2.jpg);
+}
+.single-service-3 {
+    background-image: url(../images/bg-3.jpg);
+}
+.single-service-4 {
+    background-image: url(../images/bg-4.jpg);
+}
+
+.service-content {
+    padding: 20px;
+}
+.service-content h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.service-more-btn .fa {
+    padding-left: 5px;
+}
+.service-more-btn:hover {
+    padding: 10px 20px;
+    background-color: #2ECC71;
+    color: #fff;
+    border-radius: 50px;
+}
+.service-more-btn {
+    color: #2ECC71;
+    display: inline-block;
+    font-weight: 700;
+    padding: 10px 0;
+    margin-top: 10px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
