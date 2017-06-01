@@ -1,0 +1,117 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}
+html,
+body { height: 100% }
+body {
+    color: #929292;
+    font-size: 15px;
+    line-height: 1.6;
+}
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+section.section-padding {
+    padding: 80px 0;
+}
+.section-title {
+    margin-bottom: 60px;
+}
+.section-title h2 {
+    position: relative;
+    text-transform: uppercase;
+}
+.section-title h2::before {
+    background: #29abe2 none repeat scroll 0 0;
+    border-radius: 5px;
+    bottom: -10px;
+    content: "";
+    height: 5px;
+    left: 0;
+    position: absolute;
+    width: 60px;
+}
+.staff-list .owl-stage-outer .owl-stage .owl-item .single-staff-item img {
+    border-radius: 50%;
+    width: 160px;
+}
+.staff-meta {
+    margin: 15px 0;
+}
+.staff-meta h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.staff-meta p {
+    color: #C0C0C0;
+}
+.staff-list .owl-nav {
+    position: absolute;
+    right: 0;
+    top: -60px;
+}
+.staff-list .owl-nav div:hover {
+    background: #29ABE2;
+    color: #fff;
+}
+.staff-list .owl-nav div {
+    display: inline-block;
+    color: #6F6F6F;
+    width: 50px;
+    height: 40px;
+    background: #F3F3F3;
+    line-height: 40px;
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: center;
+    transition: .3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
