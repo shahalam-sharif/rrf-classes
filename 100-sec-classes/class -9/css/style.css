@@ -1,0 +1,155 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}
+
+html,
+body {
+    height: 100%
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #757675;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+section.section-padding {
+    padding: 80px 0;
+}
+
+.section-title {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.section-borders span {
+    background-color: #64ac00;
+    border-radius: 2px;
+    display: inline-block;
+    height: 5px;
+    width: 50px;
+}
+
+.section-borders span.balck-border {
+    background: #0c0c0c none repeat scroll 0 0;
+    margin: 0 10px;
+    width: 30px;
+}
+
+.single-testimonial-item {
+    box-shadow: 0 0 2px #757675;
+    font-size: 13px;
+    font-style: italic;
+    line-height: 1.3;
+    margin: 2px;
+    padding: 20px;
+    padding-left: 80px;
+    position: relative;
+}
+
+.single-testimonial-item:before {
+    font-family: fontAwesome;
+    content: "\f10e";
+    color: #64ac00;
+    font-size: 25px;
+    left: 20px;
+    line-height: 30px;
+    margin-top: -15px;
+    position: absolute;
+    top: 50%;
+}
+
+.single-testimonial-item:after {
+    background: #CFCFCF none repeat scroll 0 0;
+    content: "";
+    height: 70%;
+    left: 65px;
+    position: absolute;
+    top: 15%;
+    width: 1px;
+}
+
+.single-testimonial-item h3 {
+    font-size: 20px;
+    font-style: normal;
+}
+
+.single-testimonial-item h3 span {
+    display: block;
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 5px;
+    color: #757675;
+}
+
+.testimonial-carousel .owl-dots {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.testimonial-carousel .owl-dots div {
+    background: #64AC00;
+    width: 20px;
+    height: 5px;
+    display: inline-block;
+    margin: 0 5px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    border-radius: 3px;
+}
+
+.testimonial-carousel .owl-dots div.active {
+    background: #0C0C0C;
+    width: 30px;
+    height: 5px;
+}
