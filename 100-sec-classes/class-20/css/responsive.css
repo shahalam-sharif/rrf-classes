@@ -1,0 +1,61 @@
+/* Medium Layout */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .main-menu li {
+        padding-left: 50px;
+    }
+}
+
+
+/* Tablet Layout */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .main-menu li {
+        padding-left: 50px;
+    }
+}
+
+
+/* Mobile Layout */
+
+@media only screen and (max-width: 767px) {
+    .logo {
+        padding: 30px 0;
+        text-align: center;
+    }
+    .main-menu ul {
+        text-align: center;
+    }
+    .main-menu li {
+        padding: 5px;
+    }
+    .main-menu a {
+        font-size: 11px;
+        padding: 18px 0;
+    }
+    .big-feature {
+        margin-bottom: 30px;
+    }
+    .single-blog-content {
+        margin-bottom: 50px;
+    }
+    .footer-area ul li a {
+        padding: 10px;
+        text-align: center;
+    }
+    .text-right {
+        text-align: center;
+    }
+    .loadmore-btn {
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+}
+
+
+/* WIde Mobile Layout */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+
+}

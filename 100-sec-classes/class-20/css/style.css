@@ -1,0 +1,217 @@
+/* Base CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i|Ubuntu:300,300i,400,400i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 400;
+}
+
+html,
+body {
+    height: 100%
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.blog-meta,
+loadmore-btn {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+body {
+    color: #626262;
+    line-height: 1.714;
+}
+
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.main-menu li {
+    display: inline-block;
+    padding-left: 95px;
+}
+
+.main-menu a {
+    color: #626262;
+    text-transform: uppercase;
+    display: block;
+    padding: 70px 0;
+}
+
+.logo {
+    padding: 70px 0;
+}
+
+.blog-featured-content img {
+    width: 100%;
+}
+
+.single-blog {}
+
+.single-blog-content {
+    margin-bottom: 120px;
+}
+
+.single-blog-content a h2 {
+    color: #626262;
+}
+
+.blog-meta {
+    text-transform: uppercase;
+}
+
+.blog-meta a {
+    color: #b4ad9e;
+}
+
+.single-blog-content h2 {
+    margin: 20px 0 25px;
+}
+
+.readmore-btn {
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+
+.blog-box-content {
+    margin-bottom: 30px;
+}
+
+.blog-box-content p:last-child {
+    margin-bottom: 0;
+}
+
+.newsletter-area {
+    background-color: #f0f0f0;
+    padding: 70px 0;
+    margin-bottom: 120px;
+}
+
+.newsletter-area h2 {
+    margin-bottom: 50px;
+}
+
+.newsletter-form {
+    border-bottom: 1px solid #000;
+    margin: 0 auto;
+    max-width: 360px;
+    position: relative;
+}
+
+.newsletter-form input[type="email"] {
+    background-color: #f0f0f0;
+    border: medium none;
+    padding: 10px;
+    width: 100%;
+}
+
+.newsletter-form button {
+    border: medium none;
+    bottom: 0;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+}
+
+.loadmore-btn {
+    border: 1px solid #b6b6b6;
+    color: #626262;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px 30px;
+}
+
+footer.footer-area {
+    background-color: #f0f0f0;
+    margin-top: 90px;
+    padding: 70px 0;
+}
+
+.footer-area ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-area li {
+    display: inline-block;
+}
+
+.footer-area ul li a {
+    color: #000;
+    display: block;
+    padding-right: 40px;
+}
+
+.footer-area .text-right a {
+    display: inline-block;
+    padding-left: 15px;
+    color: #000;
+}
+
+.blog-featured-content {
+    margin-bottom: 20px;
+}
+
+.big-feature {
+    margin-bottom: 78px;
+}
+
+.loadmore-btn:hover {
+    color: #000;
+}
