@@ -1,0 +1,139 @@
+/* Base CSS */
+
+html,
+body {
+    height: 100%;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {}
+
+html,
+body {
+    height: 100%
+}
+
+body {}
+
+a:hover {
+    text-decoration: none
+}
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.box-bg-1 {
+    background-image: url(../images/01.jpg);
+}
+
+.box-bg-2 {
+    background-image: url(../images/02.jpg);
+}
+
+.box-bg-3 {
+    background-image: url(../images/03.jpg);
+}
+
+section.section-padding {
+    padding: 80px 0;
+}
+
+.section-heading {
+    margin-bottom: 70px;
+}
+
+.single-service-box {
+    border: 1px solid #ededed;
+    text-align: center;
+}
+
+.service-box-bg {
+    background-size: cover;
+    height: 200px;
+    position: relative;
+    background-color: #ddd;
+}
+
+.service-box-bg h2 {
+    background-color: #dc5625;
+    bottom: -28px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+    left: 8%;
+    margin: 0;
+    padding: 15px;
+    position: absolute;
+    text-align: center;
+    width: 84%;
+}
+
+.service-box-content {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 55px 30px 25px;
+}
+
+.service-box-content p:last-child {
+    margin-bottom: 0;
+}
+
+.service-read-more {
+    color: #333;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    transition: .3s;
+}
+
+.section-heading h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.service-read-more:hover.service-read-more i.fa,
+.service-read-more:hover.service-read-more {
+    padding-left: 10px;
+    color: #333;
+}
