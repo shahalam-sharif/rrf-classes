@@ -1,0 +1,370 @@
+/* Base CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800');
+html,
+body {
+    height: 100%;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 400;
+    color: #373737;
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 38px;
+}
+
+html,
+body {
+    height: 100%
+}
+
+body {
+    font-family: 'Khula', sans-serif;
+    font-size: 15px;
+    color: #999;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.header-area {
+    padding: 20px 0;
+}
+
+.main-menu ul {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.main-menu li {
+    display: inline-block;
+}
+
+.main-menu a {
+    padding: 12px 12px;
+    display: block;
+    color: #888;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+
+.main-menu a:hover {
+    color: #EF476F;
+}
+
+.box-btn:hover {
+    color: #fff;
+}
+
+.box-btn,
+input[type=submit],
+input[type=button] {
+    padding: 12px 24px;
+    display: inline-block;
+    background-color: #EF476F;
+    color: #fff;
+    border-radius: 2px;
+    border: none;
+}
+
+.hero-area {
+    font-weight: 300;
+    padding: 150px 0;
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.hero-area h1 {
+    font-size: 40px;
+    max-width: 440px;
+    margin-bottom: 20px;
+    padding-top: 25px;
+}
+
+input[type="url"],
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+textarea {
+    border: 1px solid #f0f0f0;
+    padding: 10px 15px;
+}
+
+input[type="submit"],
+input[type="button"] {
+    padding: 11px 20px;
+    font-weight: 400;
+}
+
+.website-checker-form {
+    margin-top: 30px;
+}
+
+.section-padding {
+    padding: 115px 0;
+}
+
+.section-title {
+    margin-bottom: 90px;
+}
+
+.single-service-box {
+    padding: 25px;
+    border: 1px solid #F3F3F3;
+    font-weight: 300;
+    line-height: 1.7;
+    margin-bottom: 50px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.service-icon {
+    font-size: 30px;
+    color: #2E2A2B;
+}
+
+.single-service-box h3 {
+    font-size: 20px;
+    padding: 15px 0;
+}
+
+.readmore-btn {
+    color: #373737;
+    font-weight: 400;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.single-service-box i.zmdi {
+    padding-left: 5px;
+}
+
+.single-service-box:hover.single-service-box {
+    border: 1px solid #D64265;
+}
+
+.single-service-box:hover.single-service-box h3,
+.single-service-box:hover.single-service-box .service-icon,
+.single-service-box:hover.single-service-box .readmore-btn {
+    color: #D64265;
+}
+
+.pdt-50 {
+    padding-top: 50px;
+}
+
+.pdt-50 .box-btn {
+    margin-top: 15px;
+}
+
+.section-padding.gray-bg {
+    background-color: #fbfbfb;
+}
+
+.single-case-study {
+    background-color: #ddd;
+    color: #fff;
+    display: table;
+    height: 320px;
+    position: relative;
+    width: 100%;
+}
+
+.case-study-wrapper {
+    background-color: #ef476f;
+    display: table-cell;
+    opacity: 0;
+    padding: 30px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.single-case-study {
+    background-color: #b1b1b1;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: table;
+    height: 320px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.case-study-wrapper h3,
+.case-study-wrapper h4 {
+    color: #fff;
+}
+
+.case-study-wrapper {
+    background-color: #ef476f;
+    color: #fff;
+    display: table-cell;
+    opacity: 0;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+    top: 100%;
+    transition: all 0.4s ease 0s;
+    vertical-align: middle;
+    visibility: hidden;
+}
+
+.case-study-wrapper .case-study-more {
+    background-color: #fff;
+    border-radius: 50%;
+    color: #333;
+    display: inline-block;
+    height: 40px;
+    line-height: 45px;
+    margin-top: 20px;
+    width: 40px;
+}
+
+.single-case-study:hover .case-study-wrapper {
+    opacity: .9;
+    top: 0;
+    visibility: visible;
+}
+
+.case-studies-carousel.owl-carousel .owl-stage-outer {
+    overflow: inherit;
+}
+
+.section-padding.gray-bg.overflow-x-hidden {
+    overflow-x: hidden;
+}
+
+.case-bg-1 {
+    background-image: url(../images/case-bg-1.jpg);
+}
+
+.case-bg-2 {
+    background-image: url(../images/case-bg-2.jpg);
+}
+
+.case-bg-3 {
+    background-image: url(../images/case-bg-3.jpg);
+}
+
+.case-bg-4 {
+    background-image: url(../images/case-bg-1.jpg);
+}
+
+.case-bg-5 {
+    background-image: url(../images/case-bg-2.jpg);
+}
+
+.owl-dots div {
+    background-color: #ddd;
+    display: inline-block;
+    height: 3px;
+    margin: 0 5px;
+    width: 20px;
+}
+
+.owl-dots div.active {
+    background-color: #EF476F;
+}
+
+.owl-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.single-testimonial-item {
+    text-align: center;
+}
+
+.testimonial-content p {
+    color: #373737;
+    font-size: 24px;
+}
+
+.owl-carousel .owl-item .testimonial-meta img {
+    width: 65px;
+    display: inline-block;
+}
+
+.testimonial-meta p {
+    color: #999;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.testimonial-meta h4 {
+    color: #333;
+    margin: 25px 0 10px;
+}
+
+.testimonial-meta {
+    margin-top: 40px;
+}
+
+.testimonial-carousel .owl-dots {
+    margin-top: 30px;
+}
+
+.cta-area {
+    background-color: #f8f8f8;
+    padding: 60px 0;
+}
+
+.cta-area h2 {
+    margin: 0;
+    padding-top: 8px;
+}
