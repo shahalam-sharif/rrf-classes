@@ -1,0 +1,150 @@
+/* Base CSS */
+html,
+body {
+    height: 100%;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus , input:focus , textarea:focus , button:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    
+}
+
+html,
+body {
+    height: 100%
+}
+
+body {
+    
+}
+
+a:hover {
+    text-decoration: none
+}
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+section.section-padding {
+    padding: 80px 0;
+}
+.white-box {
+    box-shadow: 0 0 10px #f6f6f6;
+    padding: 30px;
+}
+input[type="text"], input[type="email"], input[type="url"], input[type="url"], input[type="tel"], input[type="password"], textarea {
+    background-color: #f9f9f9;
+    border: medium none;
+    padding: 15px;
+}
+.contact-form input, .contact-form textarea {
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.contact-form textarea{
+    resize: none;
+}
+.contact-form input[type="submit"] {
+  margin: 0;
+  width: auto;
+}
+input:required , textarea:required {
+    border-color: #ccc !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+input[type="submit"], button[type="submit"] {
+    background-color: #4daefe;
+    border: medium none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 15px 30px;
+}
+.colored-box {
+    background-color: #4daefe;
+    color: #fff;
+    padding: 30px;
+    opacity: .8;
+    
+}
+.colored-box a {
+    color: #fff;
+    opacity: .8;
+}
+.contact-info {
+    margin-bottom: 40px;
+    padding-left: 40px;
+    position: relative;
+}
+.contact-info i.fa {
+    font-size: 20px;
+    left: 0;
+    position: absolute;
+    top: 5px;
+    color: #fff;
+}
+.social-icons a {
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #ddd;
+    color: #333;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    width: 40px;
+    opacity: 1;
+}
+.social-icons a:hover {
+    box-shadow: 0 0 0;
+    color: #4daefe;
+}
+.white-box, .colored-box {
+    min-height: 500px;
+}
+.white-box h4, .colored-box h4 {
+    font-weight: 400;
+    margin-bottom: 40px;
+}
