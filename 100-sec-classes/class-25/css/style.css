@@ -1,0 +1,173 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600');
+html,
+body {
+    height: 100%;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    color: #333;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    color: #C6C6C6;
+    font-size: 14px;
+    line-height: 1.9;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+section.section-padding {
+    padding: 80px 0;
+}
+.section-title {
+    margin-bottom: 50px;
+}
+.section-title h2 {
+    color: #333;
+}
+
+.section-title-border span {
+    background-color: #8ac51d;
+    border-radius: 5px;
+    display: inline-block;
+    height: 5px;
+    width: 50px;
+}
+.section-title-border span.middle {
+    background-color: #333;
+    width: 30px;
+}
+.feature-img {
+    background-color: #ddd;
+    border: 1px solid #fff;
+    height: 120px;
+    position: relative;
+    width: 100px;
+}
+.single-feature-item {
+    margin-bottom: 20px;
+}
+.feature-img::before {
+    background-color: #8ac51d;
+    bottom: -5px;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: -5px;
+    width: 100%;
+    z-index: -1;
+}
+.feature-content h3 {
+    border-bottom: 1px dashed #8ac51d;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.main-feature-img {
+    background-color: #ddd;
+    border: 1px solid #fff;
+    height: 500px;
+    margin-left: 8%;
+    position: relative;
+    width: 90%;
+}
+.main-feature-img::before {
+    background-color: #8ac51d;
+    bottom: -10px;
+    content: "";
+    height: 100%;
+    left: -10px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    background-image: url(../images/climpek.png);
+}
+.main-feature-img::after {
+    background-color: #333;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.ser-img-1 {
+    background-image: url(../images/service-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ser-img-2 {
+    background-image: url(../images/service-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ser-img-3 {
+    background-image: url(../images/service-03.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.feature-bg {
+    background-image: url(../images/main-feature-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
