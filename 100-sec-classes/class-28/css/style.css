@@ -1,0 +1,126 @@
+/* Base CSS */
+html,
+body {
+height: 100%;
+}
+.alignleft {
+float: left;
+margin-right: 15px;
+}
+.alignright {
+float: right;
+margin-left: 15px;
+}
+.aligncenter {
+display: block;
+margin: 0 auto 15px;
+}
+a:focus , input:focus , textarea:focus , button:focus {
+outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+margin-bottom: 15px;
+}
+img {
+height: 100%;
+}
+html,
+body {
+height: 100%
+}
+body {
+}
+a:hover {
+text-decoration: none;
+}
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+-webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+/* ==========================================================================
+Author's custom styles
+========================================================================== */
+footer.footer-area {
+background-color: #14adf3;
+padding: 80px 0;
+}
+.footer-area, .footer-area a {
+color: #fff;
+}
+.footer-wid h3 {
+font-size: 20px;
+text-transform: uppercase;
+}
+.social-links i.fa {
+display: inline-block;
+font-size: 20px;
+margin-top: 10px;
+padding-right: 20px;
+}
+.footer-wid ul {
+list-style: outside none none;
+margin: 0;
+padding: 0;
+}
+.contact-info {
+padding-left: 30px;
+position: relative;
+}
+.contact-info i.fa {
+font-size: 15px;
+left: 0;
+position: absolute;
+top: 5px;
+}
+.footer-subscribtion-form h4 {
+font-size: 16px;
+text-transform: uppercase;
+font-weight: 600;
+}
+.footer-subscribtion-form input[type="email"] {
+border: medium none;
+color: #333;
+padding: 6px;
+width: 70%;
+}
+.footer-subscribtion-form input[type="submit"] {
+border: medium none;
+padding: 6px;
+width: 28%;
+color: #14ADF3;
+}
+.footer-subscribtion-form form {
+margin-bottom: 10px;
+}
+.footer-subscribtion-form p {
+font-size: 90%;
+}
+
+.copyright-area, .copyright-area a {
+    color: #b5b5b5;
+    padding: 25px 0;
+}
+.copyright-area ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.copyright-area li {
+    display: inline-block;
+    padding-right: 5px;
+}
+.copyright-area li::after {
+    content: "|";
+    padding-left: 5px;
+}
+.col-md-6.text-right li:last-child::after {
+    display: none;
+}
