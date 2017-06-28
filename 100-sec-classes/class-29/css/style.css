@@ -1,0 +1,203 @@
+/* Base CSS */
+
+html,
+body {
+    height: 100%;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+}
+
+html,
+body {
+    height: 100%
+}
+
+body {}
+
+a:hover {
+    text-decoration: none
+}
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+
+/* ==========================================================================
+Author's custom styles
+========================================================================== */
+
+.project-bg-1 {
+    background-image: url(../images/1.jpg);
+}
+
+.project-bg-2 {
+    background-image: url(../images/2.jpg);
+}
+
+.project-bg-3 {
+    background-image: url(../images/3.jpg);
+}
+
+.project-bg-4 {
+    background-image: url(../images/4.jpg);
+}
+
+.project-bg-5 {
+    background-image: url(../images/5.jpg);
+}
+
+.project-bg-6 {
+    background-image: url(../images/6.jpg);
+}
+
+.project-bg-7 {
+    background-image: url(../images/7.jpg);
+}
+
+.project-bg-8 {
+    background-image: url(../images/8.jpg);
+}
+
+.project-bg-9 {
+    background-image: url(../images/9.jpg);
+}
+
+section.section-padding {
+    padding: 80px 0;
+}
+
+ul.project-title {
+    cursor: pointer;
+    list-style: outside none none;
+    margin: 0 0 30px;
+    padding: 0;
+}
+
+.project-title li {
+    display: inline-block;
+    padding: 10px 20px;
+    transition: all 0.3s ease 0s;
+}
+
+.project-title li:hover {
+    background-color: #60DBCE;
+    color: #fff;
+}
+
+.active {
+    background-color: #60DBCE;
+    color: #fff;
+}
+
+.single-project-item {
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 15px;
+}
+
+.row.project-list .col-md-4:nth-child(2) .single-project-item,
+.row.project-list .col-md-4:nth-child(4) .single-project-item,
+.row.project-list .col-md-4:nth-child(6) .single-project-item {
+    height: 615px;
+}
+
+.row.project-list .col-md-4 {
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+}
+
+.row.project-list {
+    margin-left: -7.5px;
+    margin-right: -7.5px;
+}
+
+.project-hover i.fa,
+.project-hover span {
+    color: #60DBCE;
+}
+
+.project-hover span {
+    display: block;
+    font-size: 80%;
+    margin-top: 10px;
+}
+
+.project-hover {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    opacity: 0;
+    transition: .3s;
+}
+
+.project-hover::after {
+    background-color: #000;
+    content: "";
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.project-hover a {
+    font-size: 20px;
+    position: absolute;
+    right: 25px;
+    top: 20px;
+    z-index: 2;
+}
+
+.project-hover h4 {
+    bottom: 20px;
+    color: #fff;
+    left: 25px;
+    position: absolute;
+    z-index: 2;
+    margin: 0;
+}
+
+.single-project-item:hover .project-hover {
+    opacity: 1;
+}
