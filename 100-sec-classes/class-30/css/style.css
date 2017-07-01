@@ -1,0 +1,134 @@
+/* Base CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+html,
+body {
+    height: 100%;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+    outline: 0 solid;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+}
+
+html,
+body {
+    height: 100%;
+    color: #86858a;
+    font-family: 'Slabo 27px', serif;
+}
+
+body {}
+
+a:hover {
+    text-decoration: none
+}
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+section.section-padding {
+    padding: 80px 0;
+}
+
+.content {
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: center;
+    height: 600px;
+    padding: 50px 30px;
+}
+
+.box-btn {
+    background-color: #464bed;
+    border: 1px solid #464bed;
+    border-radius: 50px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 50px;
+    transition: all 0.3s ease 0s;
+}
+
+.box-btn:hover {
+    background-color: #fff;
+    border: 1px solid #464bed;
+    color: #2e2d32;
+}
+
+.content h1 {
+    color: #2e2d32;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.shadow-gallary {
+    height: 600px;
+    position: relative;
+}
+
+.shadow-gallary img:nth-child(1) {
+    position: absolute;
+    width: 50%;
+    left: 40px;
+    top: 0;
+    box-shadow: 0 0 50px;
+}
+
+.shadow-gallary img:nth-child(2) {
+    position: absolute;
+    width: 50%;
+    right: 40px;
+    top: 50px;
+    box-shadow: 0 0 50px;
+}
+
+.shadow-gallary img:nth-child(3) {
+    position: absolute;
+    width: 70%;
+    bottom: 20px;
+    box-shadow: 0 0 50px;
+}
