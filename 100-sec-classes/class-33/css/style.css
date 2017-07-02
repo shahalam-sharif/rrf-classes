@@ -1,0 +1,168 @@
+/* Base CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Changa+One:400,400i|Roboto');
+html,
+body {
+    height: 100%;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+    outline: 0 solid;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    font-family: 'Changa One', cursive;
+    font-weight: 400;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.fullwidth-bg-area {
+    background-image: url(../images/background.jpg);
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.fullwidth-bg-area {
+    margin: 70px 0;
+}
+
+.margin-minus {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: -70px;
+    margin-top: -70px;
+    padding: 70px;
+}
+
+.dark-bg {
+    background-color: #2b2e41;
+    color: #fff;
+}
+
+.box-btn {
+    position: relative;
+    border: 1px solid #b09c7b;
+    color: #fff;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    transition: all 0.3s ease 0s;
+    margin-left: 30px;
+}
+
+.box-btn:hover {
+    color: #ccc;
+}
+
+.boxed-content {
+    padding: 0 30px;
+}
+
+.boxed-content h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.author-name {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    padding-left: 40px;
+    position: relative;
+}
+
+.author-name span {
+    color: #ccc;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.author-name::after {
+    background-color: #fff;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    width: 30px;
+}
+
+.boxed-content::before {
+    border-left: 1px solid #fff;
+    border-top: 1px solid #fff;
+    content: "";
+    height: 50px;
+    left: -20px;
+    position: absolute;
+    top: 0;
+    width: 50px;
+}
+
+.boxed-content::after {
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    bottom: 70px;
+    content: "";
+    height: 50px;
+    position: absolute;
+    right: -30px;
+    width: 50px;
+}
