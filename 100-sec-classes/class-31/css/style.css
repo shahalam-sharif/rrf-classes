@@ -1,0 +1,197 @@
+/* Base CSS */
+
+html,
+body {
+    height: 100%;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+    outline: 0 solid;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+}
+
+html,
+body {
+    height: 100%
+}
+
+body {}
+
+a:hover {
+    text-decoration: none
+}
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.section-bg-1 {
+    background-image: url(../images/01.jpg);
+    background-position: center center;
+    background-color: #ddd;
+    background-size: cover;
+}
+
+.section-bg-2 {
+    background-image: url(../images/02.jpg);
+    background-position: center center;
+    background-color: #ddd;
+    background-size: cover;
+}
+
+.section-bg-3 {
+    background-image: url(../images/03.jpg);
+    background-position: center center;
+    background-color: #ddd;
+    background-size: cover;
+}
+
+html,
+body,
+.full-height {
+    height: 100%;
+}
+
+body {
+    max-height: 100%;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #fff;
+}
+
+.section-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.section-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+
+section.section-padding {
+    padding: 80px 0;
+}
+
+.section-padding .full-height {
+    padding: 0;
+}
+
+.overlay {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.overlay::after,
+.single-service-item::after {
+    background-color: #000;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.single-service-item {
+    height: 100%;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+}
+
+.single-service-item h2 {
+    font-size: 25px;
+}
+
+.video-section {
+    text-align: center;
+    transition: .5s;
+}
+
+.video-play-btn {
+    background-color: #fff;
+    border-radius: 50%;
+    color: #333;
+    display: inline-block;
+    height: 80px;
+    line-height: 92px;
+    width: 80px;
+}
+
+.video-play-btn i.fa {
+    font-size: 30px;
+    padding-left: 7px;
+}
+
+a.video-play-btn:hover {
+    color: #ddd;
+}
+
+.service-icon i.fa {
+    font-size: 80px;
+    line-height: 100px;
+}
+
+a.service-learn-more {
+    border: 1px solid;
+    color: #fff;
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 20px;
+    transition: all 0.5s ease 0s;
+}
+
+a.service-learn-more:hover {
+    border-radius: 30px;
+    color: #fff;
+}
