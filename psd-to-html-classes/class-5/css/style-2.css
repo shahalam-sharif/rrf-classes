@@ -1,0 +1,27 @@
+.hero-area {
+    background-image: url(../images/homepage-bg-02.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.box-btn,
+input[type="submit"],
+input[type="button"] {
+    background-color: #06D6A0;
+}
+
+.main-menu a:hover {
+    color: #06D6A0;
+}
+
+.hero-area {
+    color: #fff;
+    line-height: 1.8;
+    padding: 80px 0;
+}
+
+.hero-area h1 {
+    color: #fff;
+    font-size: 45px;
+    margin-top: 90px;
+}
